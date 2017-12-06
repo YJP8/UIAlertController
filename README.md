@@ -1,3 +1,4 @@
+
 UIAlertController从iOS8.0开始被使用。旨在替代UIAlertView和UIActionSheet这两个控件。
 所以UIAlertController有一个`preferredStyle`属性属性，该属性是个`UIAlertControllerStyle`类型的枚举值，其值如下：
 ```
@@ -61,8 +62,4 @@ NSLog(@"textFIeld = %@", textField.text);
 [self presentViewController:alert animated:true completion:nil];
 
 ![Login.gif](http://upload-images.jianshu.io/upload_images/4242403-8750f72124110125.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
-
-
 
